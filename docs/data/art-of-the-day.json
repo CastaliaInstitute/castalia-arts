@@ -1,21 +1,21 @@
 {
   "series_label": "Art of the Day",
-  "title": "Replace With Today’s Work",
-  "subtitle": "Use one public-domain or otherwise reusable work at a time.",
-  "artist": "Artist or maker",
-  "date": "Year or period",
-  "culture": "Culture or place",
-  "medium": "Object type or medium",
-  "collection": "Museum or collection",
-  "rights": "Public domain / CC0 / verified reusable status",
-  "look_prompt": "What shapes or repeated lines hold the picture together?",
-  "make_prompt": "Redraw one section in line only, then turn it into a coloring page or a study prompt.",
-  "source_label": "Collection page",
-  "source_url": "https://www.metmuseum.org/learn/learning-resources/coloring-pages",
+  "title": "Under the Wave off Kanagawa (The Great Wave)",
+  "subtitle": "A study in motion, repeated curves, and the tension between small human craft and large natural force.",
+  "artist": "Katsushika Hokusai",
+  "date": "ca. 1830–32",
+  "culture": "Japan",
+  "medium": "Woodblock print; ink and color on paper",
+  "collection": "The Metropolitan Museum of Art",
+  "rights": "Public domain",
+  "look_prompt": "Trace the biggest wave first, then find three smaller echoing shapes that repeat its curve.",
+  "make_prompt": "Turn one section of the wave into a black-line coloring study, then add your own patterned water marks around it.",
+  "source_label": "The Met collection record",
+  "source_url": "https://www.metmuseum.org/art/collection/search/45434",
   "image": {
-    "url": "https://images.metmuseum.org/CRDImages/ad/original/DP251139.jpg",
-    "alt": "Sample placeholder artwork. Replace this with the current art of the day image and alt text.",
-    "width": 2000,
-    "height": 1684
+    "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+    "alt": "Katsushika Hokusai's Under the Wave off Kanagawa, showing a towering wave over boats with Mount Fuji in the distance.",
+    "width": 2730,
+    "height": 2000
   }
 }
