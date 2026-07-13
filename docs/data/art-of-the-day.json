@@ -12,6 +12,12 @@
   "make_prompt": "Turn one section of the wave into a black-line coloring study, then add your own patterned water marks around it.",
   "source_label": "The Met collection record",
   "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+  "full_color_image": {
+    "url": "../assets/aotd/hokusai-great-wave-full-color.jpg",
+    "label": "Original full color",
+    "width": 3859,
+    "height": 2594
+  },
   "image": {
     "url": "../assets/aotd/hokusai-great-wave.jpg",
     "alt": "Katsushika Hokusai's Under the Wave off Kanagawa, showing a towering wave over boats with Mount Fuji in the distance.",

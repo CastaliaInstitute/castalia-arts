@@ -16,6 +16,13 @@
     return `<div><p class="meta-label">${escapeHtml(label)}</p><p>${escapeHtml(value)}</p></div>`;
   }
 
+  function assetLink(asset) {
+    if (!asset || !asset.url) return "";
+    const label = asset.label || "Asset";
+    const dims = asset.width && asset.height ? ` (${asset.width} × ${asset.height})` : "";
+    return `<p><a class="text-link" href="${escapeHtml(asset.url)}">${escapeHtml(label)}</a>${escapeHtml(dims)}</p>`;
+  }
+
   async function load() {
     try {
       const response = await fetch("../data/art-of-the-day.json", { cache: "no-store" });
@@ -58,6 +65,11 @@
           <div>
             <p class="meta-label">Source Link</p>
             <p><a class="text-link" href="${escapeHtml(data.source_url)}">${escapeHtml(data.source_label || data.source_url)}</a></p>
+          </div>
+          <div>
+            <p class="meta-label">Image Files</p>
+            ${assetLink(data.image)}
+            ${assetLink(data.full_color_image)}
           </div>
         </div>
       `;
