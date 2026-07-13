@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "site": {
+    "title": "Castalia Arts",
+    "domain": "arts.castalia.institute",
+    "aotd_path": "/aotd/"
+  },
+  "sources": [
+    {
+      "label": "The Metropolitan Museum of Art Open Access",
+      "kind": "museum-open-access"
+    }
+  ]
+}
