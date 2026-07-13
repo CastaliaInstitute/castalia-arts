@@ -13,9 +13,9 @@
   "source_label": "The Met collection record",
   "source_url": "https://www.metmuseum.org/art/collection/search/45434",
   "image": {
-    "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+    "url": "../assets/aotd/hokusai-great-wave.jpg",
     "alt": "Katsushika Hokusai's Under the Wave off Kanagawa, showing a towering wave over boats with Mount Fuji in the distance.",
-    "width": 2730,
-    "height": 2000
+    "width": 600,
+    "height": 403
   }
 }
